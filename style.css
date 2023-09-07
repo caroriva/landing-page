@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Days+One&family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  color: #2d3047;
+  font-family: "Days One", sans-serif;
+  padding: 2rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 5px;
+  border-bottom: 1px solid #048a81;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.logo img {
+  height: 70px;
+  width: auto;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.nav-links a {
+  font-size: 200;
+  color: #048a81;
+  text-decoration: none;
+}
+
+.nav-links .contacto {
+  background-color: #93b7be;
+  color: #2d3047;
+  padding: 5px;
+  border-radius: 5px;
+}
