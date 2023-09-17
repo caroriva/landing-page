@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Days+One&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;600;700;800&display=swap");
 
 * {
   margin: 0;
@@ -7,45 +7,110 @@
 }
 
 body {
-  background-color: white;
   color: #2d3047;
-  font-family: "Days One", sans-serif;
-  padding: 2rem;
+  font-family: "Exo 2", sans-serif;
 }
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 80px;
-  padding: 5px;
+  height: 70px;
+  width: 100%;
+  padding: 0px 50px;
   border-bottom: 1px solid #048a81;
 }
 
-.logo {
+.header img {
+  height: 50%;
   cursor: pointer;
 }
 
-.logo img {
-  height: 70px;
-  width: auto;
-}
-
-.nav-links {
+.navbar ul {
   display: flex;
-  gap: 30px;
+  gap: 60px;
   list-style: none;
 }
 
-.nav-links a {
-  font-size: 200;
+.navbar a {
+  font-size: 80 px;
+  font-weight: 600;
   color: #048a81;
   text-decoration: none;
 }
 
-.nav-links .contacto {
+.navbar .contact {
   background-color: #93b7be;
   color: #2d3047;
   padding: 5px;
   border-radius: 5px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.hero {
+  margin-top: 70px;
+  padding: 50px 0px;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 50%;
+}
+
+.hero-info h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #2d3047;
+  width: 80%;
+}
+
+.hero-info p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #2d3047;
+  width: 80%;
+}
+
+.hero-info .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.hero-info .btn-services {
+  text-decoration: none;
+  background-color: #93b7be;
+  color: #2d3047;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.hero-info .btn-learn {
+  text-decoration: none;
+  color: #048a81;
+  border: 1px solid #048a81;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.hero img {
+  height: 400px;
 }
