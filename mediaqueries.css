@@ -1,0 +1,104 @@
+@media (max-width: 992px) {
+  .hero-info {
+    text-align: center;
+    align-items: center;
+    width: 90%;
+    gap: 30px;
+  }
+
+  .hero-info p {
+    width: 90%;
+    line-height: 30px;
+    font-size: 22px;
+  }
+
+  #hero img {
+    display: none;
+  }
+
+  .btn-services,
+  .btn-learn {
+    font-size: 20px;
+  }
+
+  #about h3 {
+    width: 50%;
+    line-height: 30px;
+    padding: 100px 0;
+  }
+
+  .cards-title {
+    width: 60%;
+  }
+
+  .cards-container {
+    max-width: 80%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-info a {
+    font-size: 22px;
+  }
+
+  .card-info p {
+    font-size: 20px;
+  }
+
+  #contact {
+    margin-top: 30px;
+  }
+
+  .contact-img {
+    display: none;
+  }
+
+  .contact-info {
+    text-align: center;
+    align-items: center;
+  }
+
+  .contact-card {
+    text-align: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  .contact-mail,
+  .contact-phone {
+    gap: 5px;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar ul {
+    background: #fff;
+    width: 100%;
+    height: calc(100vh - 70px);
+    position: absolute;
+    top: 70px;
+    left: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: none;
+  }
+
+  .navbar i {
+    display: block;
+  }
+
+  #menu-toggle:checked ~ .navbar-list {
+    display: flex;
+  }
+
+  #about h3 {
+    width: 100%;
+    line-height: 30px;
+    padding: 100px 30px;
+  }
+}
